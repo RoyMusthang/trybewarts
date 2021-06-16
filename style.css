@@ -14,6 +14,16 @@
   display: flex;
 }
 
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+}
+
 .trybewarts-header-logo {
   width: 70px;
 }
