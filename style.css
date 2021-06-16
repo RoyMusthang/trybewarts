@@ -39,3 +39,11 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.checkbox-container {
+  flex-direction: row;
+}
+
+.rate-container {
+  flex-direction: row;
+}
