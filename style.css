@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+#nome-completo {
+  display: flex;
+}
+
 main {
   display: flex;
   
@@ -32,3 +36,5 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+
