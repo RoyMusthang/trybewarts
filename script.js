@@ -34,3 +34,6 @@ checkAgreement();
 document.getElementById('textarea').onkeyup = function piak() {
   document.getElementById('counter').innerHTML = `Caracteres: ${500 - this.value.length}`;
 };
+
+// document.querySelector('input[name="rate"]:checked').value;
+// document.querySelectorAll('.checkbox:checked');
