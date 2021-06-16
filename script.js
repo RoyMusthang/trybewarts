@@ -30,3 +30,7 @@ function checkAgreement() {
   });
 }
 checkAgreement();
+
+document.getElementById('textarea').onkeyup = function piak() {
+  document.getElementById('counter').innerHTML = `Caracteres: ${500 - this.value.length}`;
+};
