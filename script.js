@@ -12,20 +12,21 @@ btnLogin.addEventListener('click', () => {
   }
 });
 
-function CheckAgreement() {     
-  const checkAgreement = document.getElementById('agreement');     
-  checkAgreement.addEventListener('change', () => {     
-    if (checkAgreement.checked) {
-           ActivateButton();     } 
-           else {     
-             DeactivateButton();     
-            }     
-          });   
-        }
-
 function DeactivateButton() {
-       submitBtn.disabled = true;
-    }
+  btnSubmit.disabled = true;
+}
+
 function ActivateButton() {
-       submitBtn.disabled = false;  
+  btnSubmit.disabled = false;
+}
+// https://pt.stackoverflow.com/questions/307752/habilitar-desabilitar-um-bot%C3%A3o-se-pelo-menos-um-checkbox-for-marcado
+function checkAgreement() {
+  agreement.addEventListener('change', () => {
+    if (agreement.checked) {
+      ActivateButton();
+    } else {
+      DeactivateButton();
     }
+  });
+}
+checkAgreement();
