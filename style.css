@@ -24,6 +24,10 @@
   display: flex;
 }
 
+#user-info {
+  display: flex;
+}
+
 main {
   display: flex;
   
@@ -36,5 +40,4 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
-
 
