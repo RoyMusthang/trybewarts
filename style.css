@@ -22,9 +22,13 @@
 
 main {
   display: flex;
+  
 }
 
 .trybewarts-header-logo {
   width: 70px;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+}
